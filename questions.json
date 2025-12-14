@@ -1,0 +1,12 @@
+[
+  { "question": "What is 2 + 2?", "options": ["2","3","4","5"], "answer": "4" },
+  { "question": "Which language runs in browser?", "options": ["Java","Python","JavaScript","C++"], "answer": "JavaScript" },
+  { "question": "HTML stands for?", "options": ["Hyper Text Markup Language","High Text","Hyper Tool","None"], "answer": "Hyper Text Markup Language" },
+  { "question": "CSS is used for?", "options": ["Logic","Styling","Database","Server"], "answer": "Styling" },
+  { "question": "Which tag loads JS?", "options": ["<js>","<javascript>","<script>","<code>"], "answer": "<script>" },
+  { "question": "LocalStorage is?", "options": ["Temporary","Session","Permanent","Server"], "answer": "Permanent" },
+  { "question": "JS comment symbol?", "options": ["<!-- -->","//","#","**"], "answer": "//" },
+  { "question": "Who created JavaScript?", "options": ["Google","Microsoft","Netscape","Apple"], "answer": "Netscape" },
+  { "question": "Select ID method?", "options": ["query()","getElementById()","selectId()","getId()"], "answer": "getElementById()" },
+  { "question": "Constant keyword?", "options": ["let","var","const","static"], "answer": "const" }
+]

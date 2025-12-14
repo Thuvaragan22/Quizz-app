@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App SPA</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="gradient">
+
+<!-- 🔹 LANDING -->
+<section id="landing" class="box">
+  <h1>🧠 Online Quiz</h1>
+  <button onclick="showLogin()">Attempt Quiz</button>
+</section>
+
+<!-- 🔹 LOGIN -->
+<section id="login" class="box hidden">
+  <h2>Login</h2>
+  <input id="username" placeholder="Username">
+  <button onclick="login()">Login</button>
+</section>
+
+<!-- 🔹 QUIZ -->
+<section id="quiz" class="box hidden">
+
+  <div class="top">
+    <span id="welcome"></span>
+    <button onclick="toggleTheme()">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress">
+    <div id="progress-bar"></div>
+  </div>
+
+  <p>⏱ Time Left: <b id="timer">10</b>s</p>
+
+  <h2 id="question"></h2>
+  <div id="options"></div>
+
+  <p id="message"></p>
+
+  <button onclick="nextQuestion()">Next</button>
+</section>
+
+<!-- 🔹 RESULT -->
+<section id="result" class="box hidden">
+  <h2>🎉 Quiz Completed!</h2>
+  <p id="final-score"></p>
+
+  <button onclick="restartQuiz()">
+    <i class="fa-solid fa-rotate"></i> Restart
+  </button>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
